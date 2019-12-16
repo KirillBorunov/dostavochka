@@ -1,0 +1,51 @@
+<div class="justify-content-center mt-4 mb-4 row">
+  <div class="col-12 text-center">
+    <div class="card">
+      <div class="card-body">
+        <p id="prodyes">У вас <strong id="cant">-</strong> продуктов в заказе.</p>
+        <p id="prodno">У вас пока нет продуктов в заказе. Добавьте продукты для оформления заказа.</p>
+        <button id="cancel" class="btn btn-danger">Отменить</button>
+        <button id="continue" class="btn btn-primary">Оформить заказ</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<form class="d-flex form-inline mb-3">
+  <input type="text" class="form-control mb-2 mr-2 mr-sm-2" id="search" placeholder="Напишите продукт..." style="flex-basis: 1;flex-grow: 1;">
+  <button id="searchbutton" type="submit" class="btn btn-primary my-1">Найти</button>
+</form>
+<div id="prodcat" class="row">
+</div>
+<div class="modal fade" id="addProdModal" tabindex="-1" role="dialog" aria-labelledby="addProdModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addProdModalLabel">Добавить продукт</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <div class="floating-label has-value">
+              <label for="modalprod">Продукт</label>
+              <input class="form-control" id="modalprod" maxlength="100" name="prod" type="text">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="floating-label has-value">
+              <label for="modalcount">Количество</label>
+              <input class="form-control" id="modalcount" min="1" max="100" step="1" name="count" type="number">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+        <button type="button" class="btn btn-primary" id='modaladd' data-dismiss="modal">ДОБАВИТЬ</button>
+      </div>
+    </div>
+  </div>
+</div>

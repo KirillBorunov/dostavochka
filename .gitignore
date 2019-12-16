@@ -1,0 +1,12 @@
+
+DostavochkaApp/node_modules
+DostavochkaBackend/Dostavochka.DB/bin
+DostavochkaBackend/Dostavochka.DB/obj
+DostavochkaBackend/Dostavochka/bin
+DostavochkaBackend/Dostavochka/obj
+DostavochkaApp/plugins
+DostavochkaApp/platforms
+DostavochkaApp/.vscode
+DostavochkaBackend/.vs
+DostavochkaBackend/Dostavochka.DB/Dostavochka.DB.sqlproj.user
+DostavochkaBackend/Dostavochka/Dostavochka.csproj.user

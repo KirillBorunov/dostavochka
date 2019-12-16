@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Dostavochka.DB", "Dostavochka.DB\Dostavochka.DB.sqlproj", "{E06E4A95-D489-4A52-8333-C5344AF6C677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dostavochka", "Dostavochka\Dostavochka.csproj", "{80FAD484-DF6F-41D7-94AE-0FCE21C8F4CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06E4A95-D489-4A52-8333-C5344AF6C677}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{80FAD484-DF6F-41D7-94AE-0FCE21C8F4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FAD484-DF6F-41D7-94AE-0FCE21C8F4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FAD484-DF6F-41D7-94AE-0FCE21C8F4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FAD484-DF6F-41D7-94AE-0FCE21C8F4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A46F5C2-92B1-4B42-A0F9-6D862B872016}
+	EndGlobalSection
+EndGlobal

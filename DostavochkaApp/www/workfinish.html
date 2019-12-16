@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Завершить заказ #<span id="id"></span></h5>
+    <p>Завершите заказ только когда он был доставлен и вы получили оплату за него.</p>
+    <ul id="prodlist" class="list-group mb-4"></ul>
+    <p>Бюджет: <span id="budget"></span></p>
+    <p>Оплата за доставку: <span id="tip"></span></p>
+    <p>Адрес: <span id="address"></span></p>
+    <p>Дополнительная информация: <span id="memo"></span></p>
+    <form>
+      <div class="form-group">
+        <div class="floating-label">
+          <label for="memo2">Коментарии</label>
+          <input class="form-control" id="memo2" maxlength="100" name="memo" type="text">
+        </div>
+      </div>
+    </form>
+    <a id="return" class="btn btn-secondary" href="#">Вернутся</a>
+    <a id="finish" class="btn btn-primary" href="#">ЗАВЕРШИТЬ</a>
+  </div>
+</div>

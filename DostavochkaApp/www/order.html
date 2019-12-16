@@ -1,0 +1,39 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Подтверждения заказа</h5>
+    <ul id="prodlist" class="list-group mb-4"></ul>
+    <form>
+      <div class="form-group">
+        <div class="floating-label">
+          <label for="budget">Бюджет</label>
+          <input class="form-control" id="budget" name="budget" type="number">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="floating-label">
+          <label for="tip">Оплата</label>
+          <input class="form-control" id="tip" name="tip" type="number" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="floating-label">
+          <label for="address">Адрес</label>
+          <input class="form-control" id="address" name="address" type="text" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="floating-label">
+          <label for="memo">Дополнительноя информация</label>
+          <input class="form-control" id="memo" name="memo" type="text">
+        </div>
+      </div>
+    </form>
+    <div class="justify-content-center mt-4 mb-4 row">
+      <div class="col-12 text-center">
+        <button id="cancel" class="btn btn-danger btn-sm">Отменить</button>
+        <button id="return" class="btn btn-secondary">Вернутся</button>
+        <button id="continue" class="btn btn-primary">ПОДТВЕРДИТЬ</button>
+      </div>
+    </div>
+  </div>
+</div>
