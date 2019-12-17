@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{e06e4a95-d489-4a52-8333-c5344af6c677}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -70,5 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Dostavochka.DB.publish.xml" />
+    <None Include="Dostavochka_1.DB.publish.xml" />
+    <None Include="Test_Local.DB.publish.xml" />
+    <None Include="Azure.DB.publish.xml" />
   </ItemGroup>
 </Project>

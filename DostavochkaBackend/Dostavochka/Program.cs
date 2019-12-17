@@ -21,7 +21,10 @@ namespace Dostavochka
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://localhost:51205"); ;
+                    .UseUrls(
+                        //"http://localhost:51205"
+                        "http://dostavochka.azurewebsites.net:8080"
+                    ); ;
                 });
     }
 }

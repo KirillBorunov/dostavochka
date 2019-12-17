@@ -1,6 +1,6 @@
 var app = {
 
-    api: 'http://localhost:51205/',
+    api: 'http://dostavochka.azurewebsites.net/',
 
     $app : null,
     products: [],

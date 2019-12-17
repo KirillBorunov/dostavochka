@@ -10,3 +10,4 @@ DostavochkaApp/.vscode
 DostavochkaBackend/.vs
 DostavochkaBackend/Dostavochka.DB/Dostavochka.DB.sqlproj.user
 DostavochkaBackend/Dostavochka/Dostavochka.csproj.user
+DostavochkaBackend/Dostavochka/Properties/PublishProfiles/dostavochka - Web Deploy.pubxml.user

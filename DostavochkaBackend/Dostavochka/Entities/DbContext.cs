@@ -24,7 +24,9 @@ namespace Dostavochka.Entities
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=localhost;Database=Dostavochka;Integrated Security=True");
+                //@"Server=localhost;Database=Dostavochka;Integrated Security=True"
+                @"Server=dostavochka.database.windows.net;Database=Dostavochka;User ID=backend;password=nP4UMfPXa9fCK6q7ErfV"
+            );
         }
     }
 }
